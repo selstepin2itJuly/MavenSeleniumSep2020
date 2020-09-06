@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" ignored="0" total="6" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="96468" started-at="2020-09-06T14:46:11 EDT" finished-at="2020-09-06T14:47:48 EDT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="96468" started-at="2020-09-06T14:46:11 EDT" finished-at="2020-09-06T14:47:48 EDT">
+      <class name="tests.TestCaseThree">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tests.TestCaseThree@a7e666]" name="beforeMethod" is-config="true" duration-ms="5042" started-at="2020-09-06T14:47:16 EDT" finished-at="2020-09-06T14:47:21 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="LoginTestInvalidUser()[pri:0, instance:tests.TestCaseThree@a7e666]" name="LoginTestInvalidUser" duration-ms="16153" started-at="2020-09-06T14:47:21 EDT" finished-at="2020-09-06T14:47:38 EDT">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:819)
+at org.testng.Assert.assertEquals(Assert.java:829)
+at tests.TestCaseThree.LoginTestInvalidUser(TestCaseThree.java:32)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTestInvalidUser -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestCaseThree@a7e666]" name="afterMethod" is-config="true" duration-ms="686" started-at="2020-09-06T14:47:38 EDT" finished-at="2020-09-06T14:47:38 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tests.TestCaseThree@a7e666]" name="beforeMethod" is-config="true" duration-ms="5410" started-at="2020-09-06T14:47:38 EDT" finished-at="2020-09-06T14:47:44 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="LoginTestSuccess()[pri:0, instance:tests.TestCaseThree@a7e666]" name="LoginTestSuccess" duration-ms="3204" started-at="2020-09-06T14:47:44 EDT" finished-at="2020-09-06T14:47:47 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTestSuccess -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestCaseThree@a7e666]" name="afterMethod" is-config="true" duration-ms="663" started-at="2020-09-06T14:47:47 EDT" finished-at="2020-09-06T14:47:48 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- tests.TestCaseThree -->
+      <class name="tests.TestCaseOne">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tests.TestCaseOne@6737fd8f]" name="beforeMethod" is-config="true" duration-ms="6361" started-at="2020-09-06T14:46:11 EDT" finished-at="2020-09-06T14:46:17 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="LoginTestInvalidUser()[pri:0, instance:tests.TestCaseOne@6737fd8f]" name="LoginTestInvalidUser" duration-ms="16286" started-at="2020-09-06T14:46:17 EDT" finished-at="2020-09-06T14:46:34 EDT">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:819)
+at org.testng.Assert.assertEquals(Assert.java:829)
+at tests.TestCaseOne.LoginTestInvalidUser(TestCaseOne.java:32)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTestInvalidUser -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestCaseOne@6737fd8f]" name="afterMethod" is-config="true" duration-ms="697" started-at="2020-09-06T14:46:34 EDT" finished-at="2020-09-06T14:46:34 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tests.TestCaseOne@6737fd8f]" name="beforeMethod" is-config="true" duration-ms="4909" started-at="2020-09-06T14:46:34 EDT" finished-at="2020-09-06T14:46:39 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="LoginTestSuccess()[pri:0, instance:tests.TestCaseOne@6737fd8f]" name="LoginTestSuccess" duration-ms="3636" started-at="2020-09-06T14:46:39 EDT" finished-at="2020-09-06T14:46:43 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTestSuccess -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestCaseOne@6737fd8f]" name="afterMethod" is-config="true" duration-ms="663" started-at="2020-09-06T14:46:43 EDT" finished-at="2020-09-06T14:46:44 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- tests.TestCaseOne -->
+      <class name="tests.TestCaseTwo">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tests.TestCaseTwo@72b6cbcc]" name="beforeMethod" is-config="true" duration-ms="4988" started-at="2020-09-06T14:46:44 EDT" finished-at="2020-09-06T14:46:49 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="LoginTestInvalidUser()[pri:0, instance:tests.TestCaseTwo@72b6cbcc]" name="LoginTestInvalidUser" duration-ms="16123" started-at="2020-09-06T14:46:49 EDT" finished-at="2020-09-06T14:47:05 EDT">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:819)
+at org.testng.Assert.assertEquals(Assert.java:829)
+at tests.TestCaseTwo.LoginTestInvalidUser(TestCaseTwo.java:32)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTestInvalidUser -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestCaseTwo@72b6cbcc]" name="afterMethod" is-config="true" duration-ms="691" started-at="2020-09-06T14:47:05 EDT" finished-at="2020-09-06T14:47:05 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tests.TestCaseTwo@72b6cbcc]" name="beforeMethod" is-config="true" duration-ms="6587" started-at="2020-09-06T14:47:05 EDT" finished-at="2020-09-06T14:47:12 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="LoginTestSuccess()[pri:0, instance:tests.TestCaseTwo@72b6cbcc]" name="LoginTestSuccess" duration-ms="3639" started-at="2020-09-06T14:47:12 EDT" finished-at="2020-09-06T14:47:16 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTestSuccess -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.TestCaseTwo@72b6cbcc]" name="afterMethod" is-config="true" duration-ms="663" started-at="2020-09-06T14:47:16 EDT" finished-at="2020-09-06T14:47:16 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- tests.TestCaseTwo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="tests.TestCaseTwo">
+        <methods>
+          <include name="LoginTestInvalidUser"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- tests.TestCaseTwo -->
+      <class name="tests.TestCaseThree">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="LoginTestInvalidUser"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- tests.TestCaseThree -->
+      <class name="tests.TestCaseOne">
+        <methods>
+          <include name="LoginTestInvalidUser"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- tests.TestCaseOne -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
